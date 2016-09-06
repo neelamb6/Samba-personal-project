@@ -64,7 +64,7 @@ public class MemberController {
 
     private String getRootErrorMessage(Exception e) {
         // Default to general error message that registration failed.
-        String errorMessage = "Registration failed. See server log for more information";
+        String errorMessage = "  Registration failed. See server log for more information";
         if (e == null) {
             // This shouldn't happen, but return the default messages
             return errorMessage;
